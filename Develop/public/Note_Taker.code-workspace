@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Note_Taker",
+			"path": "../.."
+		},
+		{
+			"name": "Develop",
+			"path": "../../../../course/11-Express/02-Challenge/Develop"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Note_Taker"
+	}
+}
