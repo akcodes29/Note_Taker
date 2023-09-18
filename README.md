@@ -47,8 +47,10 @@ The following API routes should be created:
 * `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
 
 
-## Bonus
+## Credits
+I recieved intial starter code from UCF coding bootcamp. I also worked with a tutor to understand how to pursue the requirements of the app. 
 
-You haven’t learned how to handle DELETE requests, but this application offers that functionality on the front end. As a bonus, try to add the DELETE route to the application using the following guideline:
+## Deployment
 
-* `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+## Repository 
+https://github.com/akcodes29/Note_Taker
