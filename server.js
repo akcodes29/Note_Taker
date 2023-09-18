@@ -1,16 +1,18 @@
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 3001;
-const apiRoutes = require('./routes/api-routes.js');
+const PORT = process.env.PORT || 5000;
+const apiRoutes = require('./routes/apiroutes.js');
 const htmlRoutes = require('./routes/html-routes.js');
+const path = require("path");
+console.log(apiRoutes);
+
 
 app.use(express.static(path.join(__dirname + 'public')));
-// parse incoming string or array data
+
 app.use(express.urlencoded({extended: true}));
-// parse incoming JSON data
 app.use(express.json());
 
-// Use apiRoutes
+// Use Routes
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 

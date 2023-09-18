@@ -1,7 +1,8 @@
-const fs = require('fs');
 const path = require('path');
+const fs = require('fs');
 
-function updateDb(id, notesArray) {
+//to delete
+function deleteDb(id, notesArray) {
     const deletedNote = id;
     for (let i = 0; i < notesArray.length; i++) {
       if (deletedNote === notesArray[i].id) {
@@ -28,6 +29,5 @@ function updateDb(id, notesArray) {
   };
 
   module.exports = {
-    updateDb,
-    createNewNote,
+    deleteDb, createNewNote,
   }; 
