@@ -50,7 +50,12 @@ The following API routes should be created:
 ## Credits
 I recieved intial starter code from UCF coding bootcamp. I also worked with a tutor to understand how to pursue the requirements of the app. 
 
-## Deployment
+## Deployment Heroku
+https://notetaker12991-5c8f6f504873.herokuapp.com/notes
 
 ## Repository 
 https://github.com/akcodes29/Note_Taker
+
+## Link to video
+
+https://drive.google.com/file/d/1xU9Z2FhESynjnzG4N6C8gb-jNgEzf89G/view

@@ -18,6 +18,7 @@ function deleteDb(id, notesArray) {
     }
   }
 
+  // creates new note
   function createNewNote(body, notesArray) {
     const newNote = body
     notesArray.push(newNote);
